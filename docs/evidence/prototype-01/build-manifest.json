@@ -1,0 +1,30 @@
+{
+  "index.html": {
+    "bytes": 8389,
+    "sha256": "1d6ab451c510a32c0916f5f69eb9d2cbf8311c6166924b3da7e5ccf6aa219fda"
+  },
+  "style.css": {
+    "bytes": 17814,
+    "sha256": "f6d108aaa674c3d63ca0a3ce43a83018f2b476c112b08b4cf8ca83304f53bc77"
+  },
+  "app.js": {
+    "bytes": 4808,
+    "sha256": "ca9afab2947ef90fb077a4303fe08d4cfddfca7170c5e5b756e474a88bd783b9"
+  },
+  "assets/citrus.svg": {
+    "bytes": 6153,
+    "sha256": "2702fe29a0c4f70c15ef96bcdc25bc16417fe4f2ab4e5d616c3f670c5c4752bf"
+  },
+  "assets/pear.svg": {
+    "bytes": 5759,
+    "sha256": "da4d0466e29e60c8dc3b22881b383bec4198fee03a349102cf49e844a111fc58"
+  },
+  "assets/berry.svg": {
+    "bytes": 5831,
+    "sha256": "3194e4c1bf0a72267a4e7e93d8b8570ae3495a94998cd8ce8e7dcd3bccfe0a6c"
+  },
+  "assets/sun.svg": {
+    "bytes": 329,
+    "sha256": "e884529304dd8789e28f9c52ec2466a6ff90c1ef83a54c476f653c0c537379ea"
+  }
+}

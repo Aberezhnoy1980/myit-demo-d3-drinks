@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Мастерская ПОЛДНЯ — локальный редактор</title>
+<link rel="icon" href="/assets/sun.svg">
+<link rel="stylesheet" href="./editor.css">
+<script type="module" src="./editor.mjs">
+</script>
+</head>
+<body>
+<header>
+<a href="/" target="_blank" rel="noopener">полдень ↗</a>
+<span>Локальная мастерская</span>
+</header>
+<main>
+<div class="intro">
+<h1>Обновить содержание</h1>
+<p>Измените тексты и иллюстрации, проверьте страницу и скачайте файл. Этот редактор не меняет сайт и ничего не публикует.</p>
+</div>
+<div class="toolbar">
+<label>Открыть файл содержания <input type="file" id="import" accept=".json,application/json">
+</label>
+<button id="load-current" type="button">Загрузить рабочую версию</button>
+<a href="./instructions.html" target="_blank" rel="noopener">Как применить изменения ↗</a>
+</div>
+<p id="notice" role="status">Загрузка рабочего содержания…</p>
+<div id="error" role="alert" tabindex="-1" hidden>
+</div>
+<div class="workspace">
+<form id="editor-form" novalidate>
+<fieldset>
+<legend>Первый экран</legend>
+<label>Первая строка заголовка <small>До 12 символов</small>
+<input name="hero.first" required maxlength="12">
+</label>
+<div class="pair">
+<label>Начало второй строки <small>До 8 символов</small>
+<input name="hero.prefix" required maxlength="8">
+</label>
+<label>Курсивная часть <small>До 14 символов</small>
+<input name="hero.accent" required maxlength="14">
+</label>
+</div>
+<label>Описание — строка 1 <small>До 58 символов</small>
+<input name="hero.description1" required maxlength="58">
+</label>
+<label>Описание — строка 2 <small>До 58 символов</small>
+<input name="hero.description2" required maxlength="58">
+</label>
+</fieldset>
+<fieldset>
+<legend>Вкусы и иллюстрации</legend>
+<label>Редактируемый вкус<select id="flavor">
+<option value="citrus">Мандарин и розмарин</option>
+<option value="pear">Груша и вербена</option>
+<option value="berry">Вишня и кардамон</option>
+</select>
+</label>
+<label>Описание вкуса <small>До 240 символов</small>
+<textarea name="flavor.description" required maxlength="240" rows="4">
+</textarea>
+</label>
+<label>Характер <small>До 60 символов</small>
+<input name="flavor.character" required maxlength="60">
+</label>
+<label>Демонстрационный состав <small>До 300 символов; это не реальная рецептура</small>
+<textarea name="flavor.ingredients" required maxlength="300" rows="3">
+</textarea>
+</label>
+<label>Иллюстрация выбранного вкуса <small>PNG, JPEG или WebP, до 4 МБ. Редактор подготовит PNG до 320×620 и 200 КБ. Меняется весь рисунок банки.</small>
+<input type="file" id="image-file" accept="image/png,image/jpeg,image/webp">
+</label>
+<div class="image-current">
+<img id="image-preview" alt="Предпросмотр иллюстрации" width="70" height="136">
+<p id="image-info">
+</p>
+</div>
+<button type="button" id="builtin">Вернуть авторскую упаковку этого вкуса</button>
+<label>Описание картинки для незрячих посетителей <small>От 8 до 180 символов</small>
+<textarea name="flavor.alt" required minlength="8" maxlength="180" rows="3">
+</textarea>
+</label>
+</fieldset>
+<div class="actions">
+<button id="preview" type="submit">Обновить предпросмотр</button>
+<button id="export" type="button">Подготовить экспорт</button>
+</div>
+</form>
+<section class="preview-area" aria-labelledby="preview-title">
+<div class="preview-bar">
+<h2 id="preview-title">Предпросмотр</h2>
+<label>Ширина<select id="preview-size">
+<option value="390">390 px</option>
+<option value="1440">1440 px</option>
+</select>
+</label>
+</div>
+<p class="preview-note">Показана последняя проверенная версия. После правок нажмите «Обновить предпросмотр».</p>
+<div class="preview-scroll">
+<iframe id="preview-frame" title="Предпросмотр страницы ПОЛДЕНЬ" sandbox="allow-scripts" width="390" height="760">
+</iframe>
+</div>
+</section>
+</div>
+<section id="export-result" hidden tabindex="-1">
+<h2>Файл подготовлен</h2>
+<p>Скачайте файл и примените его по инструкции. Рабочие файлы сайта пока не изменены.</p>
+<a id="download" class="download" download="polden-content.json">Скачать polden-content.json ↓</a>
+<a href="./instructions.html" target="_blank" rel="noopener">Инструкция применения и отката ↗</a>
+<details>
+<summary>Содержимое экспортируемого файла</summary>
+<label class="sr-only" for="export-json">Проверенный файл JSON</label>
+<textarea id="export-json" readonly rows="12">
+</textarea>
+</details>
+</section>
+</main>
+<footer>Редактор хранит изменения только в этой вкладке. Перед закрытием экспортируйте файл. Состав коллекции, торговые ссылки и макет здесь не меняются.</footer>
+</body>
+</html>

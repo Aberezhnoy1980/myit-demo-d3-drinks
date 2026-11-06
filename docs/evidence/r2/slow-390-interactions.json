@@ -1,0 +1,75 @@
+{
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+  "viewport": [
+    390,
+    844
+  ],
+  "reduced": false,
+  "lcpMs": 424,
+  "cls": 0,
+  "eventDurationMs": 56,
+  "cycles": 0,
+  "cycleTimes": [],
+  "samples": [],
+  "network": [
+    {
+      "url": "http://127.0.0.1:4333/__slow__/?audit=slow",
+      "status": 200,
+      "transferSize": 3417,
+      "encodedBodySize": 3117,
+      "duration": 387.1000000014901
+    },
+    {
+      "url": "http://127.0.0.1:4333/__slow__/style.css",
+      "status": 200,
+      "transferSize": 4841,
+      "encodedBodySize": 4541,
+      "duration": 190.30000000447035
+    },
+    {
+      "url": "http://127.0.0.1:4333/__slow__/app.js",
+      "status": 200,
+      "transferSize": 2223,
+      "encodedBodySize": 1923,
+      "duration": 175.29999999701977
+    },
+    {
+      "url": "http://127.0.0.1:4333/__slow__/assets/sun.svg",
+      "status": 200,
+      "transferSize": 545,
+      "encodedBodySize": 245,
+      "duration": 182.29999999701977
+    },
+    {
+      "url": "http://127.0.0.1:4333/__slow__/assets/citrus.svg",
+      "status": 200,
+      "transferSize": 1982,
+      "encodedBodySize": 1682,
+      "duration": 172.79999999701977
+    },
+    {
+      "url": "http://127.0.0.1:4333/__slow__/assets/sun.svg",
+      "status": 200,
+      "transferSize": 545,
+      "encodedBodySize": 245,
+      "duration": 155.69999999552965
+    },
+    {
+      "url": "http://127.0.0.1:4333/__slow__/assets/pear.svg",
+      "status": 0,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "duration": 21.200000002980232
+    },
+    {
+      "url": "http://127.0.0.1:4333/__slow__/assets/berry.svg",
+      "status": 200,
+      "transferSize": 2001,
+      "encodedBodySize": 1701,
+      "duration": 163.5
+    }
+  ],
+  "profile": "server delay: 150 ms + encoded body / 163840 bytes per second, per response; no CPU throttling",
+  "scrollWidth": 390,
+  "responseBytes": 15554
+}

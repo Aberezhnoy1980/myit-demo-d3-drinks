@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-11-05T18:17:28.001Z",
+  "node": "v22.23.4",
+  "method": "Node HTTP/1.1, new connection per resource, Accept-Encoding gzip, no client cache, loopback; responseWireBytes counts actual response headers and body, excludes request/TCP overhead. Not a browser or mobile-network measurement.",
+  "initialBodyBytes": 11485,
+  "initialResponseWireBytes": 12677,
+  "ownJsGzipBytes": 1923,
+  "requests": [
+    {
+      "path": "/",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 3094,
+      "responseWireBytes": 3336
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 4541,
+      "responseWireBytes": 4782
+    },
+    {
+      "path": "/app.js",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 1923,
+      "responseWireBytes": 2171
+    },
+    {
+      "path": "/assets/citrus.svg",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 1682,
+      "responseWireBytes": 1913
+    },
+    {
+      "path": "/assets/sun.svg",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 245,
+      "responseWireBytes": 475
+    },
+    {
+      "path": "/assets/pear.svg",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 1710,
+      "responseWireBytes": 1941
+    },
+    {
+      "path": "/assets/berry.svg",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 1701,
+      "responseWireBytes": 1932
+    },
+    {
+      "path": "/portfolio/d3/",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 3094,
+      "responseWireBytes": 3336
+    },
+    {
+      "path": "/portfolio/d3/style.css",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 4541,
+      "responseWireBytes": 4782
+    },
+    {
+      "path": "/portfolio/d3/app.js",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 1923,
+      "responseWireBytes": 2171
+    },
+    {
+      "path": "/portfolio/d3/assets/citrus.svg",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 1682,
+      "responseWireBytes": 1913
+    },
+    {
+      "path": "/portfolio/d3/assets/sun.svg",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 245,
+      "responseWireBytes": 475
+    },
+    {
+      "path": "/portfolio/d3/assets/pear.svg",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 1710,
+      "responseWireBytes": 1941
+    },
+    {
+      "path": "/portfolio/d3/assets/berry.svg",
+      "status": 200,
+      "encoding": "gzip",
+      "bodyBytes": 1701,
+      "responseWireBytes": 1932
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-05",
+  "method": "Фактические действия через CUA в браузере; сводка наблюдений, не автоматический тестовый протокол",
+  "export": {"heading": "Пауза", "descriptionChanged": true, "imageChanged": true, "downloadedFileMatchesShownJson": true},
+  "emptyHeading": "Проверьте поле «Первая строка заголовка»: оно обязательно; длина указана рядом.",
+  "missingFieldsImport": "Импорт отменён: Файл: неверный набор полей. Предыдущие данные сохранены.",
+  "brokenPng": "Не удалось прочитать изображение: файл повреждён. Прежняя иллюстрация сохранена.",
+  "maxTextPreview": [{"width":390,"scrollWidth":390},{"width":1440,"scrollWidth":1440}],
+  "finalReload": {"heading":"Время на глоток.","consoleErrorsAndWarnings":[]},
+  "previewAnchor": "Раздел «Где купить» открыт внутри about:srcdoc, редактор не загружен повторно в iframe"
+}

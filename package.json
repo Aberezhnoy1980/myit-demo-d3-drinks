@@ -1,0 +1,14 @@
+{
+  "name": "d3-polden",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.23.4"
+  },
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "preview": "node tools/preview.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

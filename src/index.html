@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ПОЛДЕНЬ — демонстрационная коллекция безалкогольных напитков. Три сочетания фруктов и пряностей. Концепт myit.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f3f0e6">
+  <title>ПОЛДЕНЬ — время на глоток</title>
+  <link rel="icon" href="./assets/sun.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script id="product-data" type="application/json">{{PRODUCT_DATA}}</script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+<header class="header">
+  <a class="wordmark" href="#" aria-label="ПОЛДЕНЬ — начало"><img src="./assets/sun.svg" width="31" height="31" alt="">полдень</a>
+  <nav aria-label="Основная навигация"><a href="#taste">Коллекция вкусов</a><a href="#about">О напитке</a></nav>
+  <a class="header-buy" href="#where">Где купить <span aria-hidden="true">↗</span></a>
+</header>
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-intro"><span class="eyebrow">Фрукты. Травы. Пузырьки.</span><span class="demo-label">Концепт напитка · myit</span></div>
+    <div class="hero-copy">
+      <h1 id="hero-title">{{HERO_FIRST}}<br>{{HERO_PREFIX}} <span class="serif">{{HERO_ACCENT}}</span></h1>
+      <p class="hero-description">{{HERO_DESCRIPTION1}}<br>{{HERO_DESCRIPTION2}}</p>
+      <a class="primary" href="#where">Где купить <span aria-hidden="true">↗</span></a>
+      <span class="hero-footnote">Безалкогольный напиток · 330 мл*</span>
+    </div>
+    <div class="product-stage" aria-label="Предметная сцена: упаковка выбранного вкуса">
+      <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+      <div class="sun-disc" aria-hidden="true"></div>
+      <span class="scene-caption" aria-hidden="true">маленькая<br>солнечная пауза</span>
+      <div class="can-shadow" aria-hidden="true"></div>
+      <div class="can-wrap"><img id="product-image" class="can" src="{{HERO_IMAGE}}" width="320" height="620" fetchpriority="high" alt="{{HERO_ALT}}"><span class="media-fallback" hidden>ПОЛДЕНЬ<br><span>Иллюстрация недоступна.<br>Вкус и описание — ниже.</span></span></div>
+      <span class="batch" aria-hidden="true">№ <b id="scene-number">01</b><small>СОЛНЕЧНАЯ<br>КОЛЛЕКЦИЯ</small></span>
+      <button id="replay" class="scene-button" type="button" hidden><span aria-hidden="true">↻</span> Встряхнуть день</button>
+    </div>
+    <div class="taste-picker" id="taste">
+      <div class="picker-label"><span class="eyebrow">Выбери настроение</span><span class="picker-count">01 — 03</span></div>
+      <div class="flavors" aria-label="Вкус напитка">
+        <a class="flavor selected" href="#citrus" data-flavor="citrus" aria-current="true"><span class="swatch citrus" aria-hidden="true"></span><span>Мандарин<small>и розмарин</small></span><span class="flavor-arrow" aria-hidden="true">↗</span></a>
+        <a class="flavor" href="#pear" data-flavor="pear"><span class="swatch pear" aria-hidden="true"></span><span>Груша<small>и вербена</small></span><span class="flavor-arrow" aria-hidden="true">↗</span></a>
+        <a class="flavor" href="#berry" data-flavor="berry"><span class="swatch berry" aria-hidden="true"></span><span>Вишня<small>и кардамон</small></span><span class="flavor-arrow" aria-hidden="true">↗</span></a>
+      </div>
+      <p class="sr-only" id="selection-status" role="status"></p>
+    </div>
+  </section>
+  <div class="ribbon" role="region" aria-label="Девиз ПОЛДЕНЬ">
+    <p class="sr-only">В твоём темпе. В твоём вкусе.</p>
+    <div class="ribbon-window" aria-hidden="true"><div class="ribbon-track"><div class="ribbon-group"><span>В твоём темпе</span><span>✳</span><span>В твоём вкусе</span><span>✳</span><span>В твоём темпе</span><span>✳</span><span>В твоём вкусе</span><span>✳</span></div><div class="ribbon-group"><span>В твоём темпе</span><span>✳</span><span>В твоём вкусе</span><span>✳</span><span>В твоём темпе</span><span>✳</span><span>В твоём вкусе</span><span>✳</span></div></div></div>
+    <button class="ribbon-control" type="button" aria-pressed="false" hidden><span class="ribbon-control-icon" aria-hidden="true">Ⅱ</span><span class="ribbon-control-label">Пауза</span></button>
+  </div>
+  <section class="story" id="about" aria-labelledby="story-title">
+    <div class="story-top"><span class="eyebrow">01 / Вкус в деталях</span><p>У каждого полдня<br>свой характер.</p></div>
+    <div class="story-layout">
+      <div class="story-heading"><h2 id="story-title">Знакомый фрукт.<br><span class="serif">Новый поворот.</span></h2><p>В основе — фруктовый вкус.<br>В послевкусии — неожиданная нота.<br>Выбирай сочетание под своё сегодня.</p><span class="recipe-note">* Вкусы, состав и объём — демонстрационные данные.</span></div>
+      <div class="taste-stories">
+        <article class="taste-story" id="citrus"><span class="recipe-number">01</span><div><h3>Мандарин <span>+ розмарин</span></h3><p>{{citrus_description}}</p><dl><div><dt>Характер</dt><dd>{{citrus_character}}</dd></div><div><dt>Концепт состава</dt><dd>{{citrus_ingredients}}</dd></div></dl><a class="text-link" href="#where" data-buy="citrus">Где купить этот вкус <span aria-hidden="true">↗</span></a></div></article>
+        <article class="taste-story" id="pear"><span class="recipe-number">02</span><div><h3>Груша <span>+ вербена</span></h3><p>{{pear_description}}</p><dl><div><dt>Характер</dt><dd>{{pear_character}}</dd></div><div><dt>Концепт состава</dt><dd>{{pear_ingredients}}</dd></div></dl><a class="text-link" href="#where" data-buy="pear">Где купить этот вкус <span aria-hidden="true">↗</span></a></div></article>
+        <article class="taste-story" id="berry"><span class="recipe-number">03</span><div><h3>Вишня <span>+ кардамон</span></h3><p>{{berry_description}}</p><dl><div><dt>Характер</dt><dd>{{berry_character}}</dd></div><div><dt>Концепт состава</dt><dd>{{berry_ingredients}}</dd></div></dl><a class="text-link" href="#where" data-buy="berry">Где купить этот вкус <span aria-hidden="true">↗</span></a></div></article>
+      </div>
+    </div>
+  </section>
+  <section class="where" id="where" aria-labelledby="where-title" tabindex="-1">
+    <span class="eyebrow">02 / Где купить</span><div class="where-layout"><h2 id="where-title">Пока —<br><span class="serif">только идея.</span></h2><div class="where-copy"><p class="chosen" id="chosen-flavor">Солнечная коллекция · три вкуса</p><p>ПОЛДЕНЬ — вымышленный бренд для портфолио myit. Эти напитки не продаются: магазины и торговые ссылки не подключены.</p><p class="where-small">Здесь показан путь от знакомства с напитком до выбора места покупки. Заказ оформить нельзя.</p><a class="text-link" href="#taste">Вернуться к вкусам <span aria-hidden="true">↑</span></a></div></div>
+  </section>
+</main>
+<footer><span class="footer-mark">полдень</span><p>Демонстрационный проект myit.<br>Бренд, упаковка и рецептуры вымышлены.</p><a href="#main">Наверх ↑</a></footer>
+</body>
+</html>

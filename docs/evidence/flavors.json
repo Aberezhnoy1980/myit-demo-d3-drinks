@@ -1,0 +1,26 @@
+[
+  {
+    "chosen": "Выбран вкус: Груша и вербена",
+    "image": "./assets/pear.svg",
+    "selected": "pear",
+    "visibleStories": [
+      "pear"
+    ]
+  },
+  {
+    "chosen": "Выбран вкус: Вишня и кардамон",
+    "image": "./assets/berry.svg",
+    "selected": "berry",
+    "visibleStories": [
+      "berry"
+    ]
+  },
+  {
+    "chosen": "Выбран вкус: Мандарин и розмарин",
+    "image": "./assets/citrus.svg",
+    "selected": "citrus",
+    "visibleStories": [
+      "citrus"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "contentRestored": true,
+  "filesBefore": 7,
+  "filesAfter": 7,
+  "changedSinceBeforeEdit": [
+    "style.css"
+  ],
+  "note": "Only style.css changed during the control run: added wrapping for maximum-length unbroken text. All other original assets and rendered content restored byte for byte; custom raster removed from dist. Isolated test 22 verifies full build hashes without intervening CSS changes."
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "selector": ".hero-description",
+    "foreground": "rgb(32, 45, 101)",
+    "background": "rgb(243, 240, 230)",
+    "ratio": 11.34
+  },
+  {
+    "selector": ".ribbon",
+    "foreground": "rgb(243, 240, 230)",
+    "background": "rgb(35, 59, 185)",
+    "ratio": 7.68
+  },
+  {
+    "selector": ".ribbon-control",
+    "foreground": "rgb(243, 240, 230)",
+    "background": "rgb(35, 59, 185)",
+    "ratio": 7.68
+  },
+  {
+    "selector": ".recipe-note",
+    "foreground": "rgb(83, 92, 118)",
+    "background": "rgb(251, 249, 241)",
+    "ratio": 6.3
+  },
+  {
+    "selector": ".where-small",
+    "foreground": "rgb(65, 75, 71)",
+    "background": "rgb(233, 237, 206)",
+    "ratio": 7.52
+  },
+  {
+    "selector": ".primary",
+    "foreground": "rgb(243, 240, 230)",
+    "background": "rgb(35, 59, 185)",
+    "ratio": 7.68
+  }
+]

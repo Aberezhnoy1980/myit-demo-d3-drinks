@@ -1,0 +1,133 @@
+[
+  {
+    "name": "reduced hidden after media event",
+    "pass": true
+  },
+  {
+    "name": "reduced CSS no animation",
+    "pass": true
+  },
+  {
+    "name": "resume after media event",
+    "pass": true
+  },
+  {
+    "name": "manual pause survives media changes",
+    "pass": true
+  },
+  {
+    "name": "zoom shortcut observation",
+    "pass": null,
+    "data": {
+      "old": {
+        "innerWidth": 1440,
+        "ratio": 1
+      },
+      "now": {
+        "innerWidth": 1440,
+        "ratio": 1
+      },
+      "limit": "No actual browser zoom if geometry unchanged"
+    }
+  },
+  {
+    "name": "single slogan in accessibility tree",
+    "pass": true,
+    "data": "- region \"Девиз ПОЛДЕНЬ\":\n  - paragraph: В твоём темпе. В твоём вкусе.\n  - button \"Продолжить движение ленты\" [pressed]: Продолжить"
+  },
+  {
+    "name": "keyboard path controls reachable",
+    "pass": true,
+    "data": [
+      {
+        "tag": "A",
+        "text": "К содержанию",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "полдень",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Коллекция вкусов",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "О напитке",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Где купить ↗",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Где купить ↗",
+        "outline": "solid"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "↻ Встряхнуть день",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Мандарини розмарин↗",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Грушаи вербена↗",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Вишняи кардамон↗",
+        "outline": "solid"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "ⅡПауза",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Где купить этот вкус ↗",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Вернуться к вкусам ↑",
+        "outline": "solid"
+      },
+      {
+        "tag": "A",
+        "text": "Наверх ↑",
+        "outline": "solid"
+      },
+      {
+        "tag": "BODY",
+        "text": "К содержанию\n\n  полдень\n  Коллекция вкусовО напитке\n  Где купить ↗\n\n\n  \n    Фрук",
+        "outline": "none"
+      },
+      {
+        "tag": "A",
+        "text": "К содержанию",
+        "outline": "solid"
+      }
+    ]
+  },
+  {
+    "name": "ribbon contrast",
+    "pass": true,
+    "data": {
+      "fg": "rgb(243, 240, 230)",
+      "bg": "rgb(35, 59, 185)",
+      "ratio": 7.681661017232629
+    }
+  }
+]

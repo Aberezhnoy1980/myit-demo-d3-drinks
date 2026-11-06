@@ -1,0 +1,93 @@
+[
+  {
+    "label": null,
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "A",
+    "text": "К содержанию"
+  },
+  {
+    "label": "ПОЛДЕНЬ — начало",
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "A",
+    "text": "полдень"
+  },
+  {
+    "label": null,
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "A",
+    "text": "Где купить ↗"
+  },
+  {
+    "label": null,
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "A",
+    "text": "Где купить ↗"
+  },
+  {
+    "label": null,
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "BUTTON",
+    "text": "↻ Встряхнуть день"
+  },
+  {
+    "label": null,
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "A",
+    "text": "Мандарини розмарин↗"
+  },
+  {
+    "label": null,
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "A",
+    "text": "Грушаи вербена↗"
+  },
+  {
+    "label": null,
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "A",
+    "text": "Вишняи кардамон↗"
+  },
+  {
+    "label": "Остановить движение ленты",
+    "outline": "solid",
+    "outlineWidth": "2px",
+    "tag": "BUTTON",
+    "text": "ⅡПауза"
+  },
+  {
+    "label": null,
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "A",
+    "text": "Где купить этот вкус ↗"
+  },
+  {
+    "label": null,
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "A",
+    "text": "Вернуться к вкусам ↑"
+  },
+  {
+    "label": null,
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "A",
+    "text": "Наверх ↑"
+  },
+  {
+    "label": null,
+    "outline": "none",
+    "outlineWidth": "3px",
+    "tag": "BODY",
+    "text": "К содержанию\n\n  полдень\n  Коллекция вкусовО напитке\n  Где купить ↗\n\n\n "
+  }
+]

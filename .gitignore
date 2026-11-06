@@ -1,0 +1,17 @@
+# Reproducible output, temporary builds and local content backups
+/dist/
+/.build-stage/
+/.build-previous/
+/.content-test-*/
+/content/backups/
+/content/.next.json
+node_modules/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx

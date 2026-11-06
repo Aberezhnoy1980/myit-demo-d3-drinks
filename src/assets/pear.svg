@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="620" viewBox="0 0 320 620" role="img" aria-label="Демонстрационная банка ПОЛДЕНЬ: груша, и вербена">
+<defs>
+<linearGradient id="metal"><stop stop-color="#7e817e"/><stop offset=".16" stop-color="#e8e9df"/><stop offset=".32" stop-color="#a1a8a1"/><stop offset=".51" stop-color="#f9faf0"/><stop offset=".76" stop-color="#a7afa7"/><stop offset=".88" stop-color="#e3e4d8"/><stop offset="1" stop-color="#777d78"/></linearGradient>
+<linearGradient id="body"><stop stop-color="#76904d"/><stop offset=".12" stop-color="#b4c986"/><stop offset=".38" stop-color="#d5e5a4"/><stop offset=".64" stop-color="#b4c986"/><stop offset=".92" stop-color="#b4c986"/><stop offset="1" stop-color="#76904d"/></linearGradient>
+<linearGradient id="shine"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff" stop-opacity=".23"/><stop offset=".48" stop-color="#fff" stop-opacity="0"/><stop offset=".93" stop-color="#142317" stop-opacity=".08"/><stop offset="1" stop-color="#142317" stop-opacity=".3"/></linearGradient>
+<radialGradient id="drop" cx=".3" cy=".2"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".6" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#55330b" stop-opacity=".18"/></radialGradient>
+<clipPath id="can"><path d="M55 65Q48 78 44 98L40 552Q40 576 58 590Q160 615 262 590Q280 576 280 552L276 98Q272 78 265 65Z"/></clipPath>
+</defs>
+<path d="M60 562v27q0 19 100 20t100-20v-27" fill="url(#metal)" stroke="#9a9d93"/>
+<path d="M55 65Q48 78 44 98L40 552Q40 576 58 590Q160 615 262 590Q280 576 280 552L276 98Q272 78 265 65Z" fill="url(#body)" stroke="#76904d" stroke-width="1"/>
+<g clip-path="url(#can)">
+<path d="M40 102q120 15 240 0M40 115q120 15 240 0" stroke="#233bb9" stroke-width="1" opacity=".5" fill="none"/>
+<g fill="#233bb9" text-anchor="middle" font-family="Arial,Helvetica,sans-serif">
+<text x="160" y="151" font-size="11" font-weight="700" letter-spacing="2.7">НАПИТОК С ХАРАКТЕРОМ</text>
+<text x="156" y="223" font-size="69" font-weight="900" letter-spacing="-5">ПОЛ</text>
+<text x="155" y="284" font-size="65" font-weight="900" letter-spacing="-5">ДЕНЬ</text>
+<text x="160" y="319" font-size="15" font-weight="700" letter-spacing="2">ГРУША</text>
+<text x="160" y="340" font-size="12" font-weight="700" letter-spacing="1.5">И ВЕРБЕНА</text>
+<text x="67" y="397" font-size="10" transform="rotate(-90 67 397)" letter-spacing="1.3">БЕЗАЛКОГОЛЬНЫЙ</text>
+<text x="253" y="393" font-size="10" transform="rotate(90 253 393)" letter-spacing="1.3">330 МЛ · ДЕМО</text>
+</g>
+<path d="M146 375c-8 12-7 20-21 33-34 37 4 60 38 59s67-24 33-59c-13-13-13-29-22-34-8-5-19-4-28 1" fill="#76904d"/><path d="M161 378q-5-28 16-40m-13 24q9-26 36-17-7 24-36 17" fill="#233bb9"/><path d="M136 420q-14 18 1 27" fill="none" stroke="#e8edc5" stroke-width="4" stroke-linecap="round"/>
+<g fill="none" stroke="#233bb9" stroke-width="9"><path d="M15 470q-35 35 0 70t0 70"/><path d="M40 470q-35 35 0 70t0 70"/><path d="M65 470q-35 35 0 70t0 70"/><path d="M90 470q-35 35 0 70t0 70"/><path d="M115 470q-35 35 0 70t0 70"/><path d="M140 470q-35 35 0 70t0 70"/><path d="M165 470q-35 35 0 70t0 70"/><path d="M190 470q-35 35 0 70t0 70"/><path d="M215 470q-35 35 0 70t0 70"/><path d="M240 470q-35 35 0 70t0 70"/><path d="M265 470q-35 35 0 70t0 70"/><path d="M290 470q-35 35 0 70t0 70"/><path d="M315 470q-35 35 0 70t0 70"/></g>
+<path d="M40 560h240v35H40z" fill="#b4c986"/><text x="160" y="580" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#233bb9" letter-spacing="2">КОЛЛЕКЦИЯ ВКУСОВ / 02</text>
+<path d="M35 65h250v540H35z" fill="url(#shine)"/>
+<circle cx="83" cy="109" r="4" fill="#442a13" opacity=".13"/><circle cx="82.3" cy="108.2" r="3" fill="url(#drop)"/><circle cx="231" cy="135" r="5" fill="#442a13" opacity=".13"/><circle cx="230.3" cy="134.2" r="4" fill="url(#drop)"/><circle cx="252" cy="229" r="3" fill="#442a13" opacity=".13"/><circle cx="251.3" cy="228.2" r="2" fill="url(#drop)"/><circle cx="78" cy="267" r="4" fill="#442a13" opacity=".13"/><circle cx="77.3" cy="266.2" r="3" fill="url(#drop)"/><circle cx="228" cy="353" r="5" fill="#442a13" opacity=".13"/><circle cx="227.3" cy="352.2" r="4" fill="url(#drop)"/><circle cx="100" cy="395" r="3" fill="#442a13" opacity=".13"/><circle cx="99.3" cy="394.2" r="2" fill="url(#drop)"/><circle cx="244" cy="440" r="4" fill="#442a13" opacity=".13"/><circle cx="243.3" cy="439.2" r="3" fill="url(#drop)"/><circle cx="62" cy="463" r="3" fill="#442a13" opacity=".13"/><circle cx="61.3" cy="462.2" r="2" fill="url(#drop)"/><circle cx="183" cy="126" r="3" fill="#442a13" opacity=".13"/><circle cx="182.3" cy="125.2" r="2" fill="url(#drop)"/><circle cx="121" cy="92" r="3" fill="#442a13" opacity=".13"/><circle cx="120.3" cy="91.2" r="2" fill="url(#drop)"/><circle cx="219" cy="530" r="4" fill="#442a13" opacity=".13"/><circle cx="218.3" cy="529.2" r="3" fill="url(#drop)"/><circle cx="112" cy="552" r="3" fill="#442a13" opacity=".13"/><circle cx="111.3" cy="551.2" r="2" fill="url(#drop)"/>
+</g>
+<ellipse cx="160" cy="65" rx="106" ry="31" fill="url(#metal)" stroke="#747d77" stroke-width="2"/>
+<ellipse cx="160" cy="63" rx="97" ry="25" fill="#c7cfc5" stroke="#f0f2e6" stroke-width="2"/>
+<ellipse cx="160" cy="63" rx="87" ry="20" fill="url(#metal)" stroke="#8e998f"/>
+<path d="M147 48q18-5 31 4l8 18q-7 12-26 7l-18-13q-7-9 5-16Z" fill="#afb8ae" stroke="#79857e" stroke-width="2"/>
+<ellipse cx="163" cy="57" rx="10" ry="5" fill="#758279"/><ellipse cx="172" cy="69" rx="8" ry="4" fill="#e4e7d9"/>
+<path d="M60 69q102 40 200 0" stroke="#fafcf0" stroke-width="2" fill="none" opacity=".75"/>
+</svg>

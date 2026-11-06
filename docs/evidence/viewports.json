@@ -1,0 +1,38 @@
+[
+  {
+    "canLoaded": true,
+    "height": 844,
+    "scrollWidth": 360,
+    "width": 360
+  },
+  {
+    "canLoaded": true,
+    "height": 844,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "canLoaded": true,
+    "height": 844,
+    "scrollWidth": 540,
+    "width": 540
+  },
+  {
+    "canLoaded": true,
+    "height": 1000,
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "canLoaded": true,
+    "height": 1000,
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "canLoaded": true,
+    "height": 1000,
+    "scrollWidth": 1440,
+    "width": 1440
+  }
+]

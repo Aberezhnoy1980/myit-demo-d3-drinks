@@ -1,0 +1,36 @@
+[
+  {
+    "file": "cycles-1440.json",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "cycles": 2,
+    "cycleTimesMs": [
+      51417.5,
+      121185.5
+    ],
+    "sampleCount": 484,
+    "medianSpeedCssPxSec": 28.0,
+    "observedWrapsBetweenSamples": 1,
+    "pausedIdenticalSamplePairs": 72,
+    "note": "250 ms samples; not a per-frame trace. CSS uses identical groups and transform-only animation."
+  },
+  {
+    "file": "cycles-390-after-edit.json",
+    "viewport": [
+      390,
+      844
+    ],
+    "cycles": 2,
+    "cycleTimesMs": [
+      22862.5,
+      45718.5
+    ],
+    "sampleCount": 182,
+    "medianSpeedCssPxSec": 28.01,
+    "observedWrapsBetweenSamples": 1,
+    "pausedIdenticalSamplePairs": 0,
+    "note": "250 ms samples; not a per-frame trace. CSS uses identical groups and transform-only animation."
+  }
+]

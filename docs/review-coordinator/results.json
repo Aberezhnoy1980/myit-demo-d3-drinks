@@ -1,0 +1,244 @@
+{
+  "date": "2026-11-05",
+  "work": "/var/folders/3b/djf2lgj121d5rrykdmkl5sh40000gq/T/d3-independent-tYLbRn",
+  "results": [
+    {
+      "name": "independent build",
+      "pass": true,
+      "data": "Built 7 public files from validated content. No packages or network required.\n"
+    },
+    {
+      "name": "reproducible dist",
+      "pass": true,
+      "data": {
+        "app.js": "71aed7c15a9c12aacdef18b1043ae522e14fba8e5979764577a8975a874fce28",
+        "assets/berry.svg": "3194e4c1bf0a72267a4e7e93d8b8570ae3495a94998cd8ce8e7dcd3bccfe0a6c",
+        "assets/citrus.svg": "2702fe29a0c4f70c15ef96bcdc25bc16417fe4f2ab4e5d616c3f670c5c4752bf",
+        "assets/pear.svg": "da4d0466e29e60c8dc3b22881b383bec4198fee03a349102cf49e844a111fc58",
+        "assets/sun.svg": "e884529304dd8789e28f9c52ec2466a6ff90c1ef83a54c476f653c0c537379ea",
+        "index.html": "227914028789569117f7a652d6d2dbfd319a96eded80aed1517c4bf0abc6c43c",
+        "style.css": "01c4fa17e8cd1ef3b6d427046e1e2eaf73e3820242ccd4f571cc93ccd457b7d8"
+      }
+    },
+    {
+      "name": "overflow 360",
+      "pass": true
+    },
+    {
+      "name": "overflow 390",
+      "pass": true
+    },
+    {
+      "name": "overflow 540",
+      "pass": true
+    },
+    {
+      "name": "overflow 768",
+      "pass": true
+    },
+    {
+      "name": "overflow 1024",
+      "pass": true
+    },
+    {
+      "name": "overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "flavor pear",
+      "pass": true
+    },
+    {
+      "name": "story pear",
+      "pass": true
+    },
+    {
+      "name": "image pear",
+      "pass": true
+    },
+    {
+      "name": "flavor berry",
+      "pass": true
+    },
+    {
+      "name": "story berry",
+      "pass": true
+    },
+    {
+      "name": "image berry",
+      "pass": true
+    },
+    {
+      "name": "flavor citrus",
+      "pass": true
+    },
+    {
+      "name": "story citrus",
+      "pass": true
+    },
+    {
+      "name": "image citrus",
+      "pass": true
+    },
+    {
+      "name": "purchase selection",
+      "pass": true
+    },
+    {
+      "name": "purchase honest",
+      "pass": true
+    },
+    {
+      "name": "Space pauses",
+      "pass": true
+    },
+    {
+      "name": "pause stable",
+      "pass": true
+    },
+    {
+      "name": "Enter resumes",
+      "pass": true
+    },
+    {
+      "name": "reduced query",
+      "pass": true
+    },
+    {
+      "name": "reduced button hidden",
+      "pass": false
+    },
+    {
+      "name": "reduced animation none",
+      "pass": true
+    },
+    {
+      "name": "motion resumes after preference",
+      "pass": false
+    },
+    {
+      "name": "manual pause survives preference",
+      "pass": true
+    },
+    {
+      "name": "two natural cycles 390",
+      "pass": true,
+      "data": {
+        "duration": 22857.14285714286,
+        "width": 640,
+        "last": 46314.794
+      }
+    },
+    {
+      "name": "constant speed 390",
+      "pass": true,
+      "data": {
+        "duration": 22857.14285714286,
+        "width": 640
+      }
+    },
+    {
+      "name": "equal seamless groups 390",
+      "pass": true
+    },
+    {
+      "name": "two natural cycles 1440",
+      "pass": true,
+      "data": {
+        "duration": 51428.57142857143,
+        "width": 1440,
+        "last": 103662.43000000001
+      }
+    },
+    {
+      "name": "constant speed 1440",
+      "pass": true,
+      "data": {
+        "duration": 51428.57142857143,
+        "width": 1440
+      }
+    },
+    {
+      "name": "equal seamless groups 1440",
+      "pass": true
+    },
+    {
+      "name": "prefix image loaded",
+      "pass": true
+    },
+    {
+      "name": "missing media fallback",
+      "pass": true
+    },
+    {
+      "name": "no JS descriptions",
+      "pass": true
+    },
+    {
+      "name": "no JS motion control hidden",
+      "pass": true
+    },
+    {
+      "name": "editor preview heading",
+      "pass": true
+    },
+    {
+      "name": "editor preview description",
+      "pass": true
+    },
+    {
+      "name": "download equals export",
+      "pass": true
+    },
+    {
+      "name": "apply changed content",
+      "pass": true
+    },
+    {
+      "name": "build changed content",
+      "pass": true
+    },
+    {
+      "name": "applied heading",
+      "pass": true
+    },
+    {
+      "name": "applied image",
+      "pass": true
+    },
+    {
+      "name": "invalid apply rejected",
+      "pass": true
+    },
+    {
+      "name": "invalid apply leaves build",
+      "pass": true
+    },
+    {
+      "name": "rollback apply",
+      "pass": true
+    },
+    {
+      "name": "rollback build",
+      "pass": true
+    },
+    {
+      "name": "rollback byte exact",
+      "pass": true
+    },
+    {
+      "name": "empty field error",
+      "pass": true
+    },
+    {
+      "name": "invalid import retains draft",
+      "pass": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "pass": true,
+      "data": []
+    }
+  ],
+  "errors": []
+}
