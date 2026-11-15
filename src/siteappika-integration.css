@@ -1,0 +1,2 @@
+/* Только размещение шапки и якорей; оформление полосы — в общем CSS. */
+html{scroll-padding-top:calc(var(--siteappika-bar-height) + 120px)}

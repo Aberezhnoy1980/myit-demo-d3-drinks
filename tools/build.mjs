@@ -7,7 +7,7 @@ import { IDS, parseContent, validateContent, validatePng, renderContent } from '
 const root = fileURLToPath(new URL('../', import.meta.url));
 // Complete validation before touching the previous working build.
 const content = await validateContent(parseContent(await readFile(join(root, 'content/site.json'), 'utf8')));
-const files = ['style.css', 'app.js', 'assets/citrus.svg', 'assets/pear.svg', 'assets/berry.svg', 'assets/sun.svg'];
+const files = ['siteappika-shell.css', 'siteappika-integration.css', 'style.css', 'app.js', 'assets/citrus.svg', 'assets/pear.svg', 'assets/berry.svg', 'assets/sun.svg'];
 const output = new Map();
 for (const file of files) output.set(file, await readFile(join(root, 'src', file)));
 const images = {};
